@@ -8,3 +8,5 @@ C:\Users\victor.omangabeira\Documents\Visual Studio 2019\TransformeSe\LojaABC\ob
 C:\Users\victor.omangabeira\Documents\Visual Studio 2019\TransformeSe\LojaABC\obj\Debug\LojaABC.exe
 C:\Users\victor.omangabeira\Documents\Visual Studio 2019\TransformeSe\LojaABC\obj\Debug\LojaABC.pdb
 C:\Users\victor.omangabeira\Documents\Visual Studio 2019\TransformeSe\LojaABC\obj\Debug\LojaABC.frmSplash.resources
+C:\Users\victor.omangabeira\Documents\Visual Studio 2019\TransformeSe\LojaABC\obj\Debug\LojaABC.frmLogin.resources
+C:\Users\victor.omangabeira\Documents\Visual Studio 2019\TransformeSe\LojaABC\obj\Debug\LojaABC.frmMenuPrincipal.resources
