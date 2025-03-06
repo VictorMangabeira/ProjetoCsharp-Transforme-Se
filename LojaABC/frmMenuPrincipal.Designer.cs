@@ -81,7 +81,7 @@ namespace LojaABC
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(173, 230);
             this.button3.TabIndex = 2;
-            this.button3.Text = "&Funcionário";
+            this.button3.Text = "&Funcionários";
             this.button3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button3.UseVisualStyleBackColor = true;
@@ -166,14 +166,12 @@ namespace LojaABC
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
-            this.button9.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button9.Location = new System.Drawing.Point(579, 505);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(173, 52);
             this.button9.TabIndex = 8;
             this.button9.Text = "&Voltar";
-            this.button9.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.button9.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button9.UseVisualStyleBackColor = true;
             // 
             // frmMenuPrincipal
