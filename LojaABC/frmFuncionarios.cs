@@ -42,16 +42,6 @@ namespace LojaABC
 
         }
 
-        private void button6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void maskedTextBox2_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
 
@@ -72,17 +62,7 @@ namespace LojaABC
 
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
         }
@@ -90,6 +70,13 @@ namespace LojaABC
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            frmMenuPrincipal abrir = new frmMenuPrincipal();
+            abrir.Show();
+            this.Hide();
         }
     }
 }

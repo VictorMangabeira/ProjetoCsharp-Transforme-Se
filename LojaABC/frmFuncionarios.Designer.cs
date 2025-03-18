@@ -209,7 +209,6 @@ namespace LojaABC
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(249, 26);
             this.txtEmail.TabIndex = 3;
-            this.txtEmail.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // lblEmail
             // 
@@ -228,7 +227,6 @@ namespace LojaABC
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(236, 26);
             this.txtNome.TabIndex = 2;
-            this.txtNome.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // lblNome
             // 
@@ -248,7 +246,6 @@ namespace LojaABC
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Size = new System.Drawing.Size(82, 26);
             this.txtCodigo.TabIndex = 1;
-            this.txtCodigo.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // lblCodigo
             // 
@@ -285,6 +282,7 @@ namespace LojaABC
             this.btnVoltar.Text = "&Voltar";
             this.btnVoltar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // btnPesquisar
             // 
@@ -297,7 +295,6 @@ namespace LojaABC
             this.btnPesquisar.Text = "Pes&quisar";
             this.btnPesquisar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnPesquisar.UseVisualStyleBackColor = true;
-            this.btnPesquisar.Click += new System.EventHandler(this.button6_Click);
             // 
             // btnLimpar
             // 

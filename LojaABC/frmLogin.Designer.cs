@@ -59,7 +59,6 @@ namespace LojaABC
             this.lblUsuario.Size = new System.Drawing.Size(64, 20);
             this.lblUsuario.TabIndex = 1;
             this.lblUsuario.Text = "Usuário";
-            this.lblUsuario.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtUsuario
             // 
@@ -69,6 +68,7 @@ namespace LojaABC
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(273, 26);
             this.txtUsuario.TabIndex = 0;
+            this.txtUsuario.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtUsuario_KeyDown);
             // 
             // txtSenha
             // 
@@ -79,6 +79,7 @@ namespace LojaABC
             this.txtSenha.PasswordChar = 'l';
             this.txtSenha.Size = new System.Drawing.Size(273, 25);
             this.txtSenha.TabIndex = 1;
+            this.txtSenha.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSenha_KeyDown);
             // 
             // lblSenha
             // 
