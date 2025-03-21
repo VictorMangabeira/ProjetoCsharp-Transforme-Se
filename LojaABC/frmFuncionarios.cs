@@ -117,7 +117,7 @@ namespace LojaABC
             mskCep.Clear();
             txtCidade.Clear();
             txtEstado.Clear();
-            cbbUf.Items.Clear();
+            cbbUf.Text = "";
             txtComplemento.Clear();
             
             txtNome.Focus();
@@ -142,16 +142,26 @@ namespace LojaABC
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
+           //checagem se os campos estão prenchidos
             if (txtNome.Text.Equals("") || txtEmail.Text.Equals("") || mskCpf.Text.Equals("   .   .   -") || mskCelular.Text.Equals("     -") || txtLougradouro.Text.Equals("") || txtNumero.Text.Equals("") || txtComplemento.Text.Equals("") || txtCidade.Text.Equals("") || txtEstado.Text.Equals("") || mskCep.Text.Equals("     -") || cbbUf.Text.Equals(""))
             {
+               //mensagem se não estiver prenchido
                 MessageBox.Show(" Favor preencher os campos!!! ");
             }
             else 
             {
-                MessageBox.Show("Cadastrado com sucesso!!!");
+                MessageBox.Show(" Cadastrado com sucesso!!! ");
                 limparCampos();
                 desabilitarCampos();
+                btnNovo.Enabled = true;
+                btnNovo.Focus();
             }
+        }
+
+        private void btnPesquisar_Click(object sender, EventArgs e)
+        {
+            frmPesquisarFuncionarios abrir  = new frmPesquisarFuncionarios();
+            abrir.ShowDialog();
         }
     }
 }

@@ -79,10 +79,8 @@ namespace LojaABC
             this.rdbNome.Name = "rdbNome";
             this.rdbNome.Size = new System.Drawing.Size(69, 24);
             this.rdbNome.TabIndex = 2;
-            this.rdbNome.TabStop = true;
             this.rdbNome.Text = "Nome";
             this.rdbNome.UseVisualStyleBackColor = true;
-            this.rdbNome.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // rdbCodigo
             // 
@@ -91,7 +89,6 @@ namespace LojaABC
             this.rdbCodigo.Name = "rdbCodigo";
             this.rdbCodigo.Size = new System.Drawing.Size(77, 24);
             this.rdbCodigo.TabIndex = 1;
-            this.rdbCodigo.TabStop = true;
             this.rdbCodigo.Text = "Código";
             this.rdbCodigo.UseVisualStyleBackColor = true;
             // 
@@ -117,6 +114,7 @@ namespace LojaABC
             this.btnPesquisar.Text = "&Pesquisar";
             this.btnPesquisar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.btnPesquisar.UseVisualStyleBackColor = true;
+            this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
             // 
             // btnLimpar
             // 
@@ -130,6 +128,7 @@ namespace LojaABC
             this.btnLimpar.Text = "&Limpar";
             this.btnLimpar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // frmPesquisarFuncionarios
             // 
