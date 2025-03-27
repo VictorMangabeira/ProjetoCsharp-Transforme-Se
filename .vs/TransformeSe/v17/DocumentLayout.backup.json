@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\victor.omangabeira\\Documents\\Visual Studio 2019\\TransformeSe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{53FCEDD2-0715-4C52-8B1F-CF203624841E}|Calculadora\\Calculadora.csproj|c:\\users\\victor.omangabeira\\documents\\visual studio 2019\\transformese\\calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{53FCEDD2-0715-4C52-8B1F-CF203624841E}|Calculadora\\Calculadora.csproj|C:\\Users\\victor.omangabeira\\Documents\\Visual Studio 2019\\TransformeSe\\calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{53FCEDD2-0715-4C52-8B1F-CF203624841E}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "Calculadora\\frmCalculadora.cs",
               "ToolTip": "C:\\Users\\victor.omangabeira\\Documents\\Visual Studio 2019\\TransformeSe\\Calculadora\\frmCalculadora.cs",
               "RelativeToolTip": "Calculadora\\frmCalculadora.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAA3wDMAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAADgvzUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T19:44:53.026Z",
               "EditorCaption": ""

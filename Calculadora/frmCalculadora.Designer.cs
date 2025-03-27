@@ -50,7 +50,7 @@
             // 
             this.lblNumero1.AutoSize = true;
             this.lblNumero1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumero1.Location = new System.Drawing.Point(38, 27);
+            this.lblNumero1.Location = new System.Drawing.Point(12, 12);
             this.lblNumero1.Name = "lblNumero1";
             this.lblNumero1.Size = new System.Drawing.Size(78, 20);
             this.lblNumero1.TabIndex = 0;
@@ -60,7 +60,7 @@
             // 
             this.lblNumero2.AutoSize = true;
             this.lblNumero2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumero2.Location = new System.Drawing.Point(38, 105);
+            this.lblNumero2.Location = new System.Drawing.Point(10, 64);
             this.lblNumero2.Name = "lblNumero2";
             this.lblNumero2.Size = new System.Drawing.Size(78, 20);
             this.lblNumero2.TabIndex = 1;
@@ -69,36 +69,39 @@
             // txtNumero1
             // 
             this.txtNumero1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNumero1.Location = new System.Drawing.Point(39, 44);
+            this.txtNumero1.Location = new System.Drawing.Point(13, 35);
             this.txtNumero1.MaxLength = 10;
+            this.txtNumero1.Multiline = true;
             this.txtNumero1.Name = "txtNumero1";
-            this.txtNumero1.Size = new System.Drawing.Size(157, 26);
+            this.txtNumero1.Size = new System.Drawing.Size(123, 26);
             this.txtNumero1.TabIndex = 2;
             // 
             // txtNumero2
             // 
             this.txtNumero2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNumero2.Location = new System.Drawing.Point(41, 132);
+            this.txtNumero2.Location = new System.Drawing.Point(13, 85);
             this.txtNumero2.MaxLength = 10;
+            this.txtNumero2.Multiline = true;
             this.txtNumero2.Name = "txtNumero2";
-            this.txtNumero2.Size = new System.Drawing.Size(155, 26);
+            this.txtNumero2.Size = new System.Drawing.Size(120, 26);
             this.txtNumero2.TabIndex = 3;
             // 
             // txtResposta
             // 
             this.txtResposta.Enabled = false;
             this.txtResposta.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtResposta.Location = new System.Drawing.Point(41, 203);
+            this.txtResposta.Location = new System.Drawing.Point(13, 136);
             this.txtResposta.MaxLength = 10;
+            this.txtResposta.Multiline = true;
             this.txtResposta.Name = "txtResposta";
-            this.txtResposta.Size = new System.Drawing.Size(155, 26);
+            this.txtResposta.Size = new System.Drawing.Size(119, 27);
             this.txtResposta.TabIndex = 4;
             // 
             // lblResposta
             // 
             this.lblResposta.AutoSize = true;
             this.lblResposta.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResposta.Location = new System.Drawing.Point(42, 171);
+            this.lblResposta.Location = new System.Drawing.Point(14, 113);
             this.lblResposta.Name = "lblResposta";
             this.lblResposta.Size = new System.Drawing.Size(78, 20);
             this.lblResposta.TabIndex = 5;
@@ -111,9 +114,9 @@
             this.gpboperacoes.Controls.Add(this.rdbSubtrair);
             this.gpboperacoes.Controls.Add(this.rdbSomar);
             this.gpboperacoes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gpboperacoes.Location = new System.Drawing.Point(259, 27);
+            this.gpboperacoes.Location = new System.Drawing.Point(138, 12);
             this.gpboperacoes.Name = "gpboperacoes";
-            this.gpboperacoes.Size = new System.Drawing.Size(211, 230);
+            this.gpboperacoes.Size = new System.Drawing.Size(109, 159);
             this.gpboperacoes.TabIndex = 6;
             this.gpboperacoes.TabStop = false;
             this.gpboperacoes.Text = "Operções";
@@ -121,7 +124,7 @@
             // rdbMultiplicar
             // 
             this.rdbMultiplicar.AutoSize = true;
-            this.rdbMultiplicar.Location = new System.Drawing.Point(27, 103);
+            this.rdbMultiplicar.Location = new System.Drawing.Point(6, 97);
             this.rdbMultiplicar.Name = "rdbMultiplicar";
             this.rdbMultiplicar.Size = new System.Drawing.Size(97, 24);
             this.rdbMultiplicar.TabIndex = 3;
@@ -132,7 +135,7 @@
             // rdbDividir
             // 
             this.rdbDividir.AutoSize = true;
-            this.rdbDividir.Location = new System.Drawing.Point(27, 133);
+            this.rdbDividir.Location = new System.Drawing.Point(6, 127);
             this.rdbDividir.Name = "rdbDividir";
             this.rdbDividir.Size = new System.Drawing.Size(69, 24);
             this.rdbDividir.TabIndex = 2;
@@ -143,7 +146,7 @@
             // rdbSubtrair
             // 
             this.rdbSubtrair.AutoSize = true;
-            this.rdbSubtrair.Location = new System.Drawing.Point(27, 73);
+            this.rdbSubtrair.Location = new System.Drawing.Point(6, 67);
             this.rdbSubtrair.Name = "rdbSubtrair";
             this.rdbSubtrair.Size = new System.Drawing.Size(83, 24);
             this.rdbSubtrair.TabIndex = 1;
@@ -154,7 +157,7 @@
             // rdbSomar
             // 
             this.rdbSomar.AutoSize = true;
-            this.rdbSomar.Location = new System.Drawing.Point(27, 40);
+            this.rdbSomar.Location = new System.Drawing.Point(6, 34);
             this.rdbSomar.Name = "rdbSomar";
             this.rdbSomar.Size = new System.Drawing.Size(74, 24);
             this.rdbSomar.TabIndex = 0;
@@ -165,21 +168,24 @@
             // btnCalcular
             // 
             this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcular.Location = new System.Drawing.Point(546, 35);
+            this.btnCalcular.Image = ((System.Drawing.Image)(resources.GetObject("btnCalcular.Image")));
+            this.btnCalcular.Location = new System.Drawing.Point(253, 23);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(183, 64);
+            this.btnCalcular.Size = new System.Drawing.Size(109, 55);
             this.btnCalcular.TabIndex = 7;
             this.btnCalcular.Text = "Calcular";
+            this.btnCalcular.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnCalcular.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCalcular.UseVisualStyleBackColor = true;
-            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click_1);
             // 
             // btnLimpar
             // 
             this.btnLimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLimpar.Image = ((System.Drawing.Image)(resources.GetObject("btnLimpar.Image")));
-            this.btnLimpar.Location = new System.Drawing.Point(546, 125);
+            this.btnLimpar.Location = new System.Drawing.Point(253, 85);
             this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(183, 59);
+            this.btnLimpar.Size = new System.Drawing.Size(109, 40);
             this.btnLimpar.TabIndex = 8;
             this.btnLimpar.Text = "Limpar";
             this.btnLimpar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -190,11 +196,14 @@
             // btnSair
             // 
             this.btnSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSair.Location = new System.Drawing.Point(546, 204);
+            this.btnSair.Image = ((System.Drawing.Image)(resources.GetObject("btnSair.Image")));
+            this.btnSair.Location = new System.Drawing.Point(253, 131);
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(183, 64);
+            this.btnSair.Size = new System.Drawing.Size(109, 40);
             this.btnSair.TabIndex = 9;
             this.btnSair.Text = "Sair";
+            this.btnSair.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSair.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSair.UseVisualStyleBackColor = true;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
@@ -202,7 +211,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 297);
+            this.ClientSize = new System.Drawing.Size(372, 186);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnCalcular);

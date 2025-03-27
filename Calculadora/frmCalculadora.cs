@@ -31,8 +31,7 @@ namespace Calculadora
         {
             Application.Exit();
         }
-
-        private void btnLimpar_Click(object sender, EventArgs e)
+        public void limparCampos()
         {
             txtNumero1.Clear();
             txtNumero2.Clear();
@@ -44,6 +43,11 @@ namespace Calculadora
             txtNumero1.Focus();
         }
 
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            limparCampos();
+        }
+
 
         private void FrmCalculadora_Load(object sender, EventArgs e)
         {
@@ -52,9 +56,72 @@ namespace Calculadora
             RemoveMenu(hMenu, MenuCount, MF_BYCOMMAND);
         }
 
-        private void btnCalcular_Click(object sender, EventArgs e)
-        {
 
+        private void btnCalcular_Click_1(object sender, EventArgs e)
+        {
+            // declarando as variaveis
+
+            double num1, num2, resp = 0;
+
+            // testador de erro*
+            try
+            {
+                // iniccializar as variaveis
+
+                num1 = Convert.ToDouble(txtNumero1.Text);
+                num2 = Convert.ToDouble(txtNumero2.Text);
+
+                if (rdbSomar.Checked == false && rdbSubtrair.Checked == false && rdbMultiplicar.Checked == false && rdbDividir.Checked == false)
+                {
+                    MessageBox.Show("Selecione uma operação", "Mensagem do sistema", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+                    limparCampos();
+                }
+                else
+                {
+
+                    //criando a estrutura de decisão
+                    if (rdbSomar.Checked)
+                    {
+                        // somando valores
+                        resp = num1 + num2;
+
+                    }
+                    if (rdbSubtrair.Checked)
+                    {
+                        //subtraindo valores
+                        resp = num1 - num2;
+                    }
+                    if (rdbMultiplicar.Checked)
+                    {
+                        //multiplicando valores
+                        resp = num1 * num2;
+                    }
+                    if (rdbDividir.Checked)
+                    {
+                        if (num2 == 0)
+                        {
+                            MessageBox.Show("Impossivel dividir por zero", "Mensagem do sistema", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+                            limparCampos();
+
+                        }
+                        else
+                        {
+                            //dividindo valores
+                            resp = num1 / num2;
+                        }
+                    }
+
+                    //resposta dos valores
+                    txtResposta.Text = resp.ToString();
+                }
+
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Favor insireir valores validos", "Mensagem do sistema", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+                limparCampos();
+
+            }
         }
     }
 }
