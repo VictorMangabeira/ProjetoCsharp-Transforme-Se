@@ -7,3 +7,4 @@ C:\Users\victor.omangabeira\Documents\Visual Studio 2019\TransformeSe\FolhaPagam
 C:\Users\victor.omangabeira\Documents\Visual Studio 2019\TransformeSe\FolhaPagamento\obj\Debug\FolhaPagamento.csproj.CoreCompileInputs.cache
 C:\Users\victor.omangabeira\Documents\Visual Studio 2019\TransformeSe\FolhaPagamento\obj\Debug\FolhaPagamento.exe
 C:\Users\victor.omangabeira\Documents\Visual Studio 2019\TransformeSe\FolhaPagamento\obj\Debug\FolhaPagamento.pdb
+C:\Users\victor.omangabeira\Documents\Visual Studio 2019\TransformeSe\FolhaPagamento\obj\Debug\FolhaPagamento.frmFluxoCaixa.resources
