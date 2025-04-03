@@ -21,12 +21,22 @@ namespace LojaABC
         static extern IntPtr GetSystemMenu(IntPtr hWnd, bool bRevert);
         [DllImport("user32")]
         static extern int GetMenuItemCount(IntPtr hWnd);
+       
         public frmFuncionarios()
         {
             InitializeComponent();
-            //desabilitar os campos
+            //executando desabilitar os campos
             desabilitarCampos();
         }
+
+        public frmFuncionarios(string descricao)
+        {
+            InitializeComponent();
+            //executando desabilitar os campos
+            desabilitarCampos();
+            txtNome.Text = descricao;
+        }
+
 
 
         private void btnVoltar_Click(object sender, EventArgs e)
@@ -161,7 +171,8 @@ namespace LojaABC
         private void btnPesquisar_Click(object sender, EventArgs e)
         {
             frmPesquisarFuncionarios abrir  = new frmPesquisarFuncionarios();
-            abrir.ShowDialog();
+            abrir.Show();
+            this.Hide();
         }
     }
 }

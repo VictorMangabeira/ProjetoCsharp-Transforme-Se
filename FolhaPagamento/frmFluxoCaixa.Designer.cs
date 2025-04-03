@@ -228,8 +228,10 @@
             this.Controls.Add(this.lblSalarioFolha);
             this.Controls.Add(this.ckbPlanoSaude);
             this.Controls.Add(this.lblDataFolha);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmFluxoCaixa";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmFluxoCaixa";
             this.ResumeLayout(false);
             this.PerformLayout();
