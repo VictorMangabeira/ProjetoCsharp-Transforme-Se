@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+//importando a bliblioteca do banco de dados
+using MySql.Data.MySqlClient;
 
 namespace LojaABC
 {
@@ -35,6 +37,7 @@ namespace LojaABC
             //executando desabilitar os campos
             desabilitarCampos();
             txtNome.Text = descricao;
+            habilitarCampos_Pesquisar();
         }
 
 
@@ -99,6 +102,36 @@ namespace LojaABC
             btnCadastrar.Enabled = true;
             btnAlterar.Enabled = false;
             btnExcluir.Enabled = false;
+            btnLimpar.Enabled = true;
+
+            btnNovo.Enabled = false;
+
+            txtNome.Focus();
+
+
+        }
+
+        //Habilitar  os campos apos pesquisa
+        public void habilitarCampos_Pesquisar()
+        {
+            txtNome.Enabled = true;
+            txtEmail.Enabled = true;
+            mskCpf.Enabled = true;
+            dtpDataNacimento.Enabled = true;
+            mskCelular.Enabled = true;
+            gpbSexo.Enabled = true;
+
+            txtLougradouro.Enabled = true;
+            txtNumero.Enabled = true;
+            mskCep.Enabled = true;
+            txtCidade.Enabled = true;
+            txtEstado.Enabled = true;
+            cbbUf.Enabled = true;
+            txtComplemento.Enabled = true;
+
+            btnCadastrar.Enabled = false;
+            btnAlterar.Enabled = true;
+            btnExcluir.Enabled = true;
             btnLimpar.Enabled = true;
 
             btnNovo.Enabled = false;
@@ -174,5 +207,12 @@ namespace LojaABC
             abrir.Show();
             this.Hide();
         }
+
+        public void cadastrarFuncionarios()
+        {
+
+        }
+
+       
     }
 }
