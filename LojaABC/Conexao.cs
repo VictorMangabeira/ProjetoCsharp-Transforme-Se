@@ -10,7 +10,7 @@ namespace LojaABC
 {
     public class Conexao
     {
-        private static string stringConn = "Server=localhost;Port=3306;Database=dbloja;Uid=lojaabc;Pwd=123456";
+        private static string stringConn = "Server=localhost;Port=3306;Database=dbTransforme;Uid=root;Pwd=''";
         private static MySqlConnection conn = null;
 
         public static MySqlConnection obterConexao()
