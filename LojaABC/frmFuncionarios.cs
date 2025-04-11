@@ -368,7 +368,7 @@ namespace LojaABC
         public int alterarFuncionarios(int codFunc)
         {
             MySqlCommand comm = new MySqlCommand();
-            comm.CommandText = "update tbFuncionarios set nome = @nome, email = @email, cpf = @cpf, dataNasc = @dataNasc, telcel = @telcel, sexo = @sexo, logradouro = @logradouro, cep = @cep, numero = @numero, complemento = @complemento, bairro = @bairro, cidade = @cidade, uf = @uf where codFunc = codFunc;";
+            comm.CommandText = "update tbFuncionarios set nome = @nome, email = @email, cpf = @cpf, dataNasc = @dataNasc, telcel = @telcel, sexo = @sexo, logradouro = @logradouro, cep = @cep, numero = @numero, complemento = @complemento, bairro = @bairro, cidade = @cidade, uf = @uf where codFunc = @codFunc;";
             comm.CommandType = CommandType.Text;
 
             comm.Parameters.Clear();
@@ -413,7 +413,7 @@ namespace LojaABC
         public int excluirFuncionarios(int codFunc)
         {
             MySqlCommand comm = new MySqlCommand();
-            comm.CommandText = "delete from tbFuncionarios where codFunc = codFunc;";
+            comm.CommandText = "delete from tbFuncionarios where codFunc = @codFunc;";
             comm.CommandType = CommandType.Text;
 
             comm.Connection = Conexao.obterConexao();

@@ -37,7 +37,7 @@ namespace LojaABC
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.btnUsuario = new System.Windows.Forms.Button();
             this.btnVoltar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -147,20 +147,21 @@ namespace LojaABC
             this.button7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button7.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // btnUsuario
             // 
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
-            this.button8.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button8.Location = new System.Drawing.Point(579, 269);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(173, 230);
-            this.button8.TabIndex = 7;
-            this.button8.Text = "&Usuários";
-            this.button8.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUsuario.Image = ((System.Drawing.Image)(resources.GetObject("btnUsuario.Image")));
+            this.btnUsuario.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnUsuario.Location = new System.Drawing.Point(579, 269);
+            this.btnUsuario.Name = "btnUsuario";
+            this.btnUsuario.Size = new System.Drawing.Size(173, 230);
+            this.btnUsuario.TabIndex = 7;
+            this.btnUsuario.Text = "&Usuários";
+            this.btnUsuario.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnUsuario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnUsuario.UseVisualStyleBackColor = true;
+            this.btnUsuario.Click += new System.EventHandler(this.btnUsuario_Click);
             // 
             // btnVoltar
             // 
@@ -182,7 +183,7 @@ namespace LojaABC
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.btnVoltar);
-            this.Controls.Add(this.button8);
+            this.Controls.Add(this.btnUsuario);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -210,7 +211,7 @@ namespace LojaABC
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button btnUsuario;
         private System.Windows.Forms.Button btnVoltar;
     }
 }

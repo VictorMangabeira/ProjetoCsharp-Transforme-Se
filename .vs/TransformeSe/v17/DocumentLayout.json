@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\victor.omangabeira\\Documents\\Visual Studio 2019\\TransformeSe\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FC10DDDF-7AE0-4FDA-BC72-A3D519CA7C7A}|LojaABC\\LojaABC.csproj|c:\\users\\victor.omangabeira\\documents\\visual studio 2019\\transformese\\lojaabc\\frmgerenciarusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC10DDDF-7AE0-4FDA-BC72-A3D519CA7C7A}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmgerenciarusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC10DDDF-7AE0-4FDA-BC72-A3D519CA7C7A}|LojaABC\\LojaABC.csproj|c:\\users\\victor.omangabeira\\documents\\visual studio 2019\\transformese\\lojaabc\\frmgerenciarusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC10DDDF-7AE0-4FDA-BC72-A3D519CA7C7A}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmgerenciarusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FC10DDDF-7AE0-4FDA-BC72-A3D519CA7C7A}|LojaABC\\LojaABC.csproj|c:\\users\\victor.omangabeira\\documents\\visual studio 2019\\transformese\\lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC10DDDF-7AE0-4FDA-BC72-A3D519CA7C7A}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC10DDDF-7AE0-4FDA-BC72-A3D519CA7C7A}|LojaABC\\LojaABC.csproj|C:\\Users\\victor.omangabeira\\Documents\\Visual Studio 2019\\TransformeSe\\lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FC10DDDF-7AE0-4FDA-BC72-A3D519CA7C7A}|LojaABC\\LojaABC.csproj|c:\\users\\victor.omangabeira\\documents\\visual studio 2019\\transformese\\lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FC10DDDF-7AE0-4FDA-BC72-A3D519CA7C7A}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -18,31 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "frmFuncionarios.cs",
               "DocumentMoniker": "C:\\Users\\victor.omangabeira\\Documents\\Visual Studio 2019\\TransformeSe\\LojaABC\\frmFuncionarios.cs",
               "RelativeDocumentMoniker": "LojaABC\\frmFuncionarios.cs",
               "ToolTip": "C:\\Users\\victor.omangabeira\\Documents\\Visual Studio 2019\\TransformeSe\\LojaABC\\frmFuncionarios.cs",
               "RelativeToolTip": "LojaABC\\frmFuncionarios.cs",
-              "ViewState": "AgIAAJgBAAAAAAAAAAAiwLUBAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAP8AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T17:23:43.052Z",
+              "WhenOpened": "2025-04-11T17:39:54.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "frmFuncionarios.cs [Design]",
               "DocumentMoniker": "C:\\Users\\victor.omangabeira\\Documents\\Visual Studio 2019\\TransformeSe\\LojaABC\\frmFuncionarios.cs",
               "RelativeDocumentMoniker": "LojaABC\\frmFuncionarios.cs",
               "ToolTip": "C:\\Users\\victor.omangabeira\\Documents\\Visual Studio 2019\\TransformeSe\\LojaABC\\frmFuncionarios.cs [Design]",
               "RelativeToolTip": "LojaABC\\frmFuncionarios.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T16:32:40.006Z",
+              "WhenOpened": "2025-04-11T17:39:51.914Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmGerenciarUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\victor.omangabeira\\Documents\\Visual Studio 2019\\TransformeSe\\LojaABC\\frmGerenciarUsuarios.cs",
+              "RelativeDocumentMoniker": "LojaABC\\frmGerenciarUsuarios.cs",
+              "ToolTip": "C:\\Users\\victor.omangabeira\\Documents\\Visual Studio 2019\\TransformeSe\\LojaABC\\frmGerenciarUsuarios.cs",
+              "RelativeToolTip": "LojaABC\\frmGerenciarUsuarios.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAADwv4gAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:36:38.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmGerenciarUsuarios.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\victor.omangabeira\\Documents\\Visual Studio 2019\\TransformeSe\\LojaABC\\frmGerenciarUsuarios.cs",
+              "RelativeDocumentMoniker": "LojaABC\\frmGerenciarUsuarios.cs",
+              "ToolTip": "C:\\Users\\victor.omangabeira\\Documents\\Visual Studio 2019\\TransformeSe\\LojaABC\\frmGerenciarUsuarios.cs [Design]",
+              "RelativeToolTip": "LojaABC\\frmGerenciarUsuarios.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:10:34.587Z",
               "EditorCaption": " [Design]"
             }
           ]
