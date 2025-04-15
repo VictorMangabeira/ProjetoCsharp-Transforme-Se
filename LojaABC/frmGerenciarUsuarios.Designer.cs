@@ -38,16 +38,16 @@
             this.btnAlterar = new System.Windows.Forms.Button();
             this.btnNovo = new System.Windows.Forms.Button();
             this.gpbDadosPessoais = new System.Windows.Forms.GroupBox();
+            this.lblFuncionarios = new System.Windows.Forms.Label();
+            this.cbbFuncionarios = new System.Windows.Forms.ComboBox();
+            this.lblRepetirSenha = new System.Windows.Forms.Label();
+            this.txtRepetirSenha = new System.Windows.Forms.TextBox();
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.lblSenha = new System.Windows.Forms.Label();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.txtCodigo = new System.Windows.Forms.TextBox();
             this.lblCodigo = new System.Windows.Forms.Label();
-            this.txtRepetirSenha = new System.Windows.Forms.TextBox();
-            this.lblRepetirSenha = new System.Windows.Forms.Label();
-            this.cbbFuncionarios = new System.Windows.Forms.ComboBox();
-            this.lblFuncionarios = new System.Windows.Forms.Label();
             this.pnlCrud.SuspendLayout();
             this.gpbDadosPessoais.SuspendLayout();
             this.SuspendLayout();
@@ -174,6 +174,40 @@
             this.gpbDadosPessoais.TabStop = false;
             this.gpbDadosPessoais.Text = "Dados pessoais";
             // 
+            // lblFuncionarios
+            // 
+            this.lblFuncionarios.AutoSize = true;
+            this.lblFuncionarios.Location = new System.Drawing.Point(374, 37);
+            this.lblFuncionarios.Name = "lblFuncionarios";
+            this.lblFuncionarios.Size = new System.Drawing.Size(100, 20);
+            this.lblFuncionarios.TabIndex = 55;
+            this.lblFuncionarios.Text = "Funcionarios";
+            // 
+            // cbbFuncionarios
+            // 
+            this.cbbFuncionarios.FormattingEnabled = true;
+            this.cbbFuncionarios.Location = new System.Drawing.Point(502, 34);
+            this.cbbFuncionarios.Name = "cbbFuncionarios";
+            this.cbbFuncionarios.Size = new System.Drawing.Size(240, 28);
+            this.cbbFuncionarios.TabIndex = 54;
+            this.cbbFuncionarios.SelectedIndexChanged += new System.EventHandler(this.cbbFuncionarios_SelectedIndexChanged);
+            // 
+            // lblRepetirSenha
+            // 
+            this.lblRepetirSenha.AutoSize = true;
+            this.lblRepetirSenha.Location = new System.Drawing.Point(374, 148);
+            this.lblRepetirSenha.Name = "lblRepetirSenha";
+            this.lblRepetirSenha.Size = new System.Drawing.Size(112, 20);
+            this.lblRepetirSenha.TabIndex = 53;
+            this.lblRepetirSenha.Text = "Repetir Senha";
+            // 
+            // txtRepetirSenha
+            // 
+            this.txtRepetirSenha.Location = new System.Drawing.Point(502, 142);
+            this.txtRepetirSenha.Name = "txtRepetirSenha";
+            this.txtRepetirSenha.Size = new System.Drawing.Size(240, 26);
+            this.txtRepetirSenha.TabIndex = 51;
+            // 
             // txtSenha
             // 
             this.txtSenha.Font = new System.Drawing.Font("Wingdings", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
@@ -227,39 +261,6 @@
             this.lblCodigo.Size = new System.Drawing.Size(59, 20);
             this.lblCodigo.TabIndex = 0;
             this.lblCodigo.Text = "Código";
-            // 
-            // txtRepetirSenha
-            // 
-            this.txtRepetirSenha.Location = new System.Drawing.Point(502, 142);
-            this.txtRepetirSenha.Name = "txtRepetirSenha";
-            this.txtRepetirSenha.Size = new System.Drawing.Size(240, 26);
-            this.txtRepetirSenha.TabIndex = 51;
-            // 
-            // lblRepetirSenha
-            // 
-            this.lblRepetirSenha.AutoSize = true;
-            this.lblRepetirSenha.Location = new System.Drawing.Point(374, 148);
-            this.lblRepetirSenha.Name = "lblRepetirSenha";
-            this.lblRepetirSenha.Size = new System.Drawing.Size(112, 20);
-            this.lblRepetirSenha.TabIndex = 53;
-            this.lblRepetirSenha.Text = "Repetir Senha";
-            // 
-            // cbbFuncionarios
-            // 
-            this.cbbFuncionarios.FormattingEnabled = true;
-            this.cbbFuncionarios.Location = new System.Drawing.Point(502, 34);
-            this.cbbFuncionarios.Name = "cbbFuncionarios";
-            this.cbbFuncionarios.Size = new System.Drawing.Size(240, 28);
-            this.cbbFuncionarios.TabIndex = 54;
-            // 
-            // lblFuncionarios
-            // 
-            this.lblFuncionarios.AutoSize = true;
-            this.lblFuncionarios.Location = new System.Drawing.Point(374, 37);
-            this.lblFuncionarios.Name = "lblFuncionarios";
-            this.lblFuncionarios.Size = new System.Drawing.Size(100, 20);
-            this.lblFuncionarios.TabIndex = 55;
-            this.lblFuncionarios.Text = "Funcionarios";
             // 
             // frmGerenciarUsuarios
             // 
