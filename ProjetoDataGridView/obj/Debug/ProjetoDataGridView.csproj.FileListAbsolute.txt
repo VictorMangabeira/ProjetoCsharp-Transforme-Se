@@ -1,0 +1,10 @@
+C:\Users\victor.omangabeira\Documents\Visual Studio 2019\TransformeSe\ProjetoDataGridView\bin\Debug\ProjetoDataGridView.exe.config
+C:\Users\victor.omangabeira\Documents\Visual Studio 2019\TransformeSe\ProjetoDataGridView\bin\Debug\ProjetoDataGridView.exe
+C:\Users\victor.omangabeira\Documents\Visual Studio 2019\TransformeSe\ProjetoDataGridView\bin\Debug\ProjetoDataGridView.pdb
+C:\Users\victor.omangabeira\Documents\Visual Studio 2019\TransformeSe\ProjetoDataGridView\obj\Debug\ProjetoDataGridView.csproj.AssemblyReference.cache
+C:\Users\victor.omangabeira\Documents\Visual Studio 2019\TransformeSe\ProjetoDataGridView\obj\Debug\ProjetoDataGridView.Properties.Resources.resources
+C:\Users\victor.omangabeira\Documents\Visual Studio 2019\TransformeSe\ProjetoDataGridView\obj\Debug\ProjetoDataGridView.csproj.GenerateResource.cache
+C:\Users\victor.omangabeira\Documents\Visual Studio 2019\TransformeSe\ProjetoDataGridView\obj\Debug\ProjetoDataGridView.csproj.CoreCompileInputs.cache
+C:\Users\victor.omangabeira\Documents\Visual Studio 2019\TransformeSe\ProjetoDataGridView\obj\Debug\ProjetoDataGridView.exe
+C:\Users\victor.omangabeira\Documents\Visual Studio 2019\TransformeSe\ProjetoDataGridView\obj\Debug\ProjetoDataGridView.pdb
+C:\Users\victor.omangabeira\Documents\Visual Studio 2019\TransformeSe\ProjetoDataGridView\obj\Debug\ProjetoDataGridView.frmDataGridView.resources

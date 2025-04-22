@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\victor.omangabeira\\Documents\\Visual Studio 2019\\TransformeSe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC10DDDF-7AE0-4FDA-BC72-A3D519CA7C7A}|LojaABC\\LojaABC.csproj|c:\\users\\victor.omangabeira\\documents\\visual studio 2019\\transformese\\lojaabc\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC10DDDF-7AE0-4FDA-BC72-A3D519CA7C7A}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC10DDDF-7AE0-4FDA-BC72-A3D519CA7C7A}|LojaABC\\LojaABC.csproj|c:\\users\\victor.omangabeira\\documents\\visual studio 2019\\transformese\\lojaabc\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC10DDDF-7AE0-4FDA-BC72-A3D519CA7C7A}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{EC5022D6-3A8E-4A41-9D88-86014D0DF8EA}|ProjetoDataGridView\\ProjetoDataGridView.csproj|c:\\users\\victor.omangabeira\\documents\\visual studio 2019\\transformese\\projetodatagridview\\frmdatagridview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EC5022D6-3A8E-4A41-9D88-86014D0DF8EA}|ProjetoDataGridView\\ProjetoDataGridView.csproj|solutionrelative:projetodatagridview\\frmdatagridview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,26 +19,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmLogin.cs",
-              "DocumentMoniker": "C:\\Users\\victor.omangabeira\\Documents\\Visual Studio 2019\\TransformeSe\\LojaABC\\frmLogin.cs",
-              "RelativeDocumentMoniker": "LojaABC\\frmLogin.cs",
-              "ToolTip": "C:\\Users\\victor.omangabeira\\Documents\\Visual Studio 2019\\TransformeSe\\LojaABC\\frmLogin.cs",
-              "RelativeToolTip": "LojaABC\\frmLogin.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAYwHwAAAAYAAAAAAAAAA==",
+              "Title": "frmDataGridView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\victor.omangabeira\\Documents\\Visual Studio 2019\\TransformeSe\\ProjetoDataGridView\\frmDataGridView.cs",
+              "RelativeDocumentMoniker": "ProjetoDataGridView\\frmDataGridView.cs",
+              "ToolTip": "C:\\Users\\victor.omangabeira\\Documents\\Visual Studio 2019\\TransformeSe\\ProjetoDataGridView\\frmDataGridView.cs [Design]",
+              "RelativeToolTip": "ProjetoDataGridView\\frmDataGridView.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T17:50:19.685Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmLogin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\victor.omangabeira\\Documents\\Visual Studio 2019\\TransformeSe\\LojaABC\\frmLogin.cs",
-              "RelativeDocumentMoniker": "LojaABC\\frmLogin.cs",
-              "ToolTip": "C:\\Users\\victor.omangabeira\\Documents\\Visual Studio 2019\\TransformeSe\\LojaABC\\frmLogin.cs [Design]",
-              "RelativeToolTip": "LojaABC\\frmLogin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T17:49:49.541Z",
+              "WhenOpened": "2025-04-22T16:35:15.63Z",
               "EditorCaption": " [Design]"
             }
           ]

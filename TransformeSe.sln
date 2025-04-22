@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora", "Calculadora\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolhaPagamento", "FolhaPagamento\FolhaPagamento.csproj", "{924B1B2C-112D-4AB2-9EB3-5F246D054622}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoDataGridView", "ProjetoDataGridView\ProjetoDataGridView.csproj", "{EC5022D6-3A8E-4A41-9D88-86014D0DF8EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,14 @@ Global
 		{924B1B2C-112D-4AB2-9EB3-5F246D054622}.Release|Any CPU.Build.0 = Release|Any CPU
 		{924B1B2C-112D-4AB2-9EB3-5F246D054622}.Release|ARM64.ActiveCfg = Release|Any CPU
 		{924B1B2C-112D-4AB2-9EB3-5F246D054622}.Release|ARM64.Build.0 = Release|Any CPU
+		{EC5022D6-3A8E-4A41-9D88-86014D0DF8EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC5022D6-3A8E-4A41-9D88-86014D0DF8EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC5022D6-3A8E-4A41-9D88-86014D0DF8EA}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{EC5022D6-3A8E-4A41-9D88-86014D0DF8EA}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{EC5022D6-3A8E-4A41-9D88-86014D0DF8EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC5022D6-3A8E-4A41-9D88-86014D0DF8EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC5022D6-3A8E-4A41-9D88-86014D0DF8EA}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{EC5022D6-3A8E-4A41-9D88-86014D0DF8EA}.Release|ARM64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
