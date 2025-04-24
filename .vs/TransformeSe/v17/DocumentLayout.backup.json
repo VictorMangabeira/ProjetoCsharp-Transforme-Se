@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\victor.omangabeira\\Documents\\Visual Studio 2019\\TransformeSe\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EC5022D6-3A8E-4A41-9D88-86014D0DF8EA}|ProjetoDataGridView\\ProjetoDataGridView.csproj|c:\\users\\victor.omangabeira\\documents\\visual studio 2019\\transformese\\projetodatagridview\\frmcarregadatagridview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5022D6-3A8E-4A41-9D88-86014D0DF8EA}|ProjetoDataGridView\\ProjetoDataGridView.csproj|solutionrelative:projetodatagridview\\frmcarregadatagridview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5022D6-3A8E-4A41-9D88-86014D0DF8EA}|ProjetoDataGridView\\ProjetoDataGridView.csproj|c:\\users\\victor.omangabeira\\documents\\visual studio 2019\\transformese\\projetodatagridview\\frmcarregadatagridview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EC5022D6-3A8E-4A41-9D88-86014D0DF8EA}|ProjetoDataGridView\\ProjetoDataGridView.csproj|solutionrelative:projetodatagridview\\frmcarregadatagridview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EC5022D6-3A8E-4A41-9D88-86014D0DF8EA}|ProjetoDataGridView\\ProjetoDataGridView.csproj|c:\\users\\victor.omangabeira\\documents\\visual studio 2019\\transformese\\projetodatagridview\\frmdatagridview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EC5022D6-3A8E-4A41-9D88-86014D0DF8EA}|ProjetoDataGridView\\ProjetoDataGridView.csproj|solutionrelative:projetodatagridview\\frmdatagridview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -19,6 +27,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "frmCarregaDataGridView.cs",
+              "DocumentMoniker": "C:\\Users\\victor.omangabeira\\Documents\\Visual Studio 2019\\TransformeSe\\ProjetoDataGridView\\frmCarregaDataGridView.cs",
+              "RelativeDocumentMoniker": "ProjetoDataGridView\\frmCarregaDataGridView.cs",
+              "ToolTip": "C:\\Users\\victor.omangabeira\\Documents\\Visual Studio 2019\\TransformeSe\\ProjetoDataGridView\\frmCarregaDataGridView.cs",
+              "RelativeToolTip": "ProjetoDataGridView\\frmCarregaDataGridView.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwBgAAACdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T16:54:43.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmCarregaDataGridView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\victor.omangabeira\\Documents\\Visual Studio 2019\\TransformeSe\\ProjetoDataGridView\\frmCarregaDataGridView.cs",
+              "RelativeDocumentMoniker": "ProjetoDataGridView\\frmCarregaDataGridView.cs",
+              "ToolTip": "C:\\Users\\victor.omangabeira\\Documents\\Visual Studio 2019\\TransformeSe\\ProjetoDataGridView\\frmCarregaDataGridView.cs [Design]",
+              "RelativeToolTip": "ProjetoDataGridView\\frmCarregaDataGridView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T16:48:25.909Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "frmDataGridView.cs [Design]",
               "DocumentMoniker": "C:\\Users\\victor.omangabeira\\Documents\\Visual Studio 2019\\TransformeSe\\ProjetoDataGridView\\frmDataGridView.cs",
               "RelativeDocumentMoniker": "ProjetoDataGridView\\frmDataGridView.cs",
